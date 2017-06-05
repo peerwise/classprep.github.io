@@ -1,2 +1,2 @@
-# classprep.github.io
-classprep.github.io
+# peerwise.github.io
+peerwise.github.io
