@@ -243,7 +243,7 @@ span.btn.active{
 }
 
 .main-box {
-    min-height: 800px;
+    min-height: 500px;
     padding: 100px 0px;
     text-align: center;
 }
@@ -262,15 +262,21 @@ span.btn.active{
     background-color : transparent;
 }
 
+
 .main-box:nth-child(2):not(.sub) {
   position:relative;
   min-height:500px;
   /*height:calc(100vh - 12vh);*/
-  height : 100vh;
+  /*height : 100vh;*/
+  background:url('../img/peerwise-main.png') no-repeat top center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-color: #0765E8;
 }
 .main-box:nth-child(2):not(.sub) *{
-    color: #fafafa;
+    color: #FFFFFF;
 }
 .main-box:nth-child(2):not(.sub) .col-md-12 {
     /*margin-top: 200px;*/
